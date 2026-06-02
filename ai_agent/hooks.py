@@ -1,10 +1,39 @@
 app_name = "ai_agent"
 app_title = "AI Agent"
 app_publisher = "MohamedKhaledKhatab"
-app_description = "AI For ERPNEXT"
+app_description = " AI Agent for ERPNext"
 app_email = "dev.khatab2017@gmail.com"
-app_license = "mit"
+app_license = "MIT"
 
+# Required apps
+required_apps = ["frappe", "erpnext"]
+
+# Website route rules
+website_route_rules = {}
+
+# Jinja filters
+jinja = {
+    "filters": []
+}
+
+# Document Events
+doc_events = {}
+
+# Scheduler Events
+scheduler_events = {
+    "daily": [
+        "ai_agent.ai_agent.tasks.daily_tasks"
+    ],
+    "hourly": [
+        "ai_agent.ai_agent.tasks.check_accounting_health"
+    ]
+}
+
+# Include JS/CSS in all pages
+app_include_js = "/assets/ai_agent/js/ai_agent.js"
+
+# API endpoints whitelist
+api_endpoints = []
 # Apps
 # ------------------
 

@@ -1,0 +1,26 @@
+{
+ "creation": "2024-01-01 00:00:00",
+ "docstatus": 0,
+ "doctype": "Page",
+ "icon": "robot",
+ "idx": 0,
+ "modified": "2024-01-01 00:00:00",
+ "modified_by": "Administrator",
+ "module": "AI Agent",
+ "name": "ai_chatbot",
+ "owner": "Administrator",
+ "page_name": "ai_chatbot",
+ "roles": [
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "Accounts Manager"
+  }
+ ],
+ "script": "",
+ "standard": "Yes",
+ "style": "",
+ "system_page": 0,
+ "title": "AI Chatbot"
+}
